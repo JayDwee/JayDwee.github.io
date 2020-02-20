@@ -324,7 +324,26 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
-
+.languagepython {
+  	width: 80%;
+  	-moz-animation: languagepython 2s ease;
+  	-webkit-animation: languagepython 2s ease;
+}
+.languagejava {
+  	width: 90%;
+  	-moz-animation: languagejava 2s ease;
+  	-webkit-animation: languagejava 2s ease;
+}
+.languagec {
+  	width: 55%;
+  	-moz-animation: languagec 2s ease;
+  	-webkit-animation: languagec 2s ease;
+}
+.languagehaskell {
+  	width: 55%;
+  	-moz-animation: languagehaskell 2s ease;
+  	-webkit-animation: languagehaskell 2s ease;
+}
 .photoshop {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
@@ -335,10 +354,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.aftereffects {
+  	width: 55%;
+  	-moz-animation: aftereffects 2s ease;
+  	-webkit-animation: aftereffects 2s ease;
 }
 .css {
   	width: 90%;
@@ -356,6 +375,22 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+@-moz-keyframes languagepython {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes languagejava {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes languagec {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-moz-keyframes languagehaskell{
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -364,9 +399,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes aftereffects {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 55%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -381,6 +416,22 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
+@-webkit-keyframes languagepython {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes languagejava {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes languagec {
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
+@-webkit-keyframes languagehaskell{
+  0%   { width: 0px;  }
+  100% { width: 55%;  }
+}
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -389,9 +440,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes aftereffects {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 55%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
